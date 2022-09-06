@@ -80,51 +80,7 @@
         color: #555 !important
       }
 
-      textarea {
-        border-radius: 5px !important;
-        border: 1px solid #162031 !important;
-      }
 
-      textarea:focus {
-        border: 0px !important;
-        transition: border .1s !important
-      }
-      .btn-info-cs,
-      .btn-danger {
-        background: linear-gradient(355deg, #2a3f54 -4%, #162031, #162031, #162031 66%) !important;
-        color: #e6e6e6 !important;
-        border: none !important;
-      }
-      button.btn-info-cs,
-      .btn-danger {
-        background: linear-gradient(355deg, #54512a -4%, #162031, #162031, #162031 66%) !important;
-        color: #e6e6e6 !important;
-        border: none !important;
-      }
-       button .btn-danger{
-        background: linear-gradient(355deg, #2a3f54 -4%, #162031, #162031, #162031 66%) !important;
-        color: #F77B0B !important;
-        border: none !important;
-      }
-      .btn-info-cs:hover {
-        background: linear-gradient(355deg, #27313a -4%, #000000, #000000, #343434 66%) !important;
-        color: #fff !important;
-      }
-      button.btn-info-cs:hover {
-        background: linear-gradient(355deg, #27313a -4%, #000000, #000000, #343434 66%) !important;
-        color: #fff !important;
-      }
-      .btn-primary,
-      .edit {
-        background: linear-gradient(355deg, #2a3f54 -4%, #162031, #162031, #162031 66%) !important;
-        border: none;
-      }
-      .btn-primary .edit:hover {
-        background: linear-gradient(355deg, #27313a -4%, #000000, #000000, #343434 66%) !important;
-      }
-      .border-primary {
-        border: 1.5px solid #162031 !important;
-      }
       .card-body {
         border: 0px !important
       }

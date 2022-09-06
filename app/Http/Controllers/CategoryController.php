@@ -23,8 +23,8 @@ class CategoryController extends Controller
                 'description' => 'required|max:350',
             ],
             [
-                'category_name.required' => 'Please input category name',
-                'description.required' => 'Please input description',
+                'category_name.required' => ' category name is required',
+                'description.required' => 'description is required',
             ]
         );
 
@@ -50,8 +50,8 @@ class CategoryController extends Controller
                 'description' => 'required',
             ],
             [
-                'category_name.required' => 'Please input category name',
-                'description.required' => 'Please input description'
+                'category_name.required' => 'category name is required',
+                'description.required' => 'description is required'
             ]
         );
         $category = Category::find($id);

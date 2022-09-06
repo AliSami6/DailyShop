@@ -31,7 +31,7 @@
 
           <div class="card border-primary">
             <div class="card-header">
-                <button type="button" class="btn-info-cs" data-toggle="modal" data-target="#modal-lg" style="border-radius:5px;padding:7px;">
+                <button type="button" class="btn btn-secondary btn btn-sm" data-toggle="modal" data-target="#modal-lg" style="border-radius:5px;padding:7px;">
                     Add Slider
                   </button>
             </div>

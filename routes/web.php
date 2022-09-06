@@ -41,8 +41,8 @@ Route::get('/account', function () {
 Route::get('/wishlist', function () {
     return view('frontend.pages.wishlist');
 });
-
-
+Route::get('/news',[PagesController::class,'NewsLetter'])->name('news.subs');
+Route::post('/news',[PagesController::class,'NewsLetter'])->name('news.subs');
 Route::prefix('admin')->group(function(){
 
 });
@@ -98,7 +98,9 @@ Route::get('/admin/delete/offer/{id}',  [OffersController::class, 'offerDelete']
 Route::get('/contact', [ContactsController::class,'createContactFormInput']);
 Route::post('/contact', [ContactsController::class, 'ContactFormInput'])->name('contact.add');
 
-Route::get('/add_product',[ProductController::class,'Addproduct'])->name('product.add');
+Route::get('/add_product',[ProductController::class,'ViewAddProduct'])->name('product.add');
+
+Route::post('/add_product',[ProductController::class,'Addproduct'])->name('product.add');
 
 Route::get('/carts', function () {
     return view('frontend.pages.carts');

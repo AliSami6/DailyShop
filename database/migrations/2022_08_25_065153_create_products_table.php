@@ -22,7 +22,7 @@ class CreateProductsTable extends Migration
               $table->longText('short_desc');
               $table->longText('desc');
               $table->integer('quantity')->default(1);
-              $table->integer('price');
+              $table->double('price');
               $table->string('size');
               $table->tinyInteger('status')->default(0);
               $table->integer('offer_price')->nullable();
